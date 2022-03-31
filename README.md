@@ -13,7 +13,7 @@
 ### 2 复制配置文件
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Mopip77/custom-clash-configuration/master/custom.template.yaml ~/.config/clash/custom.yaml
+curl -L https://raw.githubusercontent.com/Mopip77/custom-clash-configuration/master/custom.template.yaml > ~/.config/clash/custom.yaml
 ```
 
 ### 3 修改订阅地址
