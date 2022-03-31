@@ -12,15 +12,17 @@
 
 ### 2 复制配置文件
 
-将`custom.template.yaml`复制到clash配置文件夹`~/.confing/clash/`
+```bash
+curl -LO https://raw.githubusercontent.com/Mopip77/custom-clash-configuration/master/custom.template.yaml ~/.config/clash/custom.yaml
+```
 
 ### 3 修改订阅地址
 
-将`custom.template.yaml`中的订阅地址配置`<your-proxy-subscription-link>`，改为你自己的订阅地址
+将`~/.config/clash/custom.yaml`中的订阅地址配置`<your-proxy-subscription-link>`，改为你自己的订阅地址
 
 ### 4 编写自定义分流规则
 
-在`custom.tmeplate.yaml`的`rules`字段下添加你的自定义分流规则
+在`custom.yaml`的`rules`字段下添加你的自定义分流规则
 
 分流规则语法cheatsheet
 ```
@@ -38,4 +40,4 @@
 
 ## 引用
 
-[clash-rules](https://github.com/Loyalsoldier/clash-rules)
+clash的订阅规则列表[clash-rules](https://github.com/Loyalsoldier/clash-rules)
